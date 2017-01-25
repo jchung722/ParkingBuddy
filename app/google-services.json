@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "350525825965",
+    "firebase_url": "https://parkingbuddy-2c025.firebaseio.com",
+    "project_id": "parkingbuddy-2c025",
+    "storage_bucket": "parkingbuddy-2c025.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:350525825965:android:6113550624675a11",
+        "android_client_info": {
+          "package_name": "com.dev.ada.parkingbuddy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "350525825965-8ernt4ui1rbh5cpgi8so7o3jtort9sor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dev.ada.parkingbuddy",
+            "certificate_hash": "114A3B7C76DC84C2F30B74C98914CB48E53978E9"
+          }
+        },
+        {
+          "client_id": "350525825965-oubsqeajmovol7fg95hlipilcdlivelk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbVaqqPji2AyQ3KfNe7Ru74CDA7u158EY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "350525825965-oubsqeajmovol7fg95hlipilcdlivelk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
