@@ -11,10 +11,12 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.FragmentActivity;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
@@ -55,13 +57,15 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+;
+
 //import com.dev.ada.parkingbuddy.model.Category;
 
 
 
 //import java.util.function.Consumer;
 
-public class MapsActivity extends FragmentActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, GoogleMap.OnMarkerClickListener, LocationListener {
+public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, GoogleMap.OnMarkerClickListener, LocationListener {
 
     private GoogleMap mMap;
     private GoogleApiClient mGoogleApiClient;
@@ -131,6 +135,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
@@ -199,9 +205,10 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                     .build();
         }
 
-        mNavItems.add(new NavItem("Home", "Meetup destination", R.drawable.pay));
-        mNavItems.add(new NavItem("Preferences", "Change your preferences", R.drawable.pay));
-        mNavItems.add(new NavItem("About", "Get to know about us", R.drawable.pay));
+        mNavItems.add(new NavItem("About", "How to Parking Buddy", R.drawable.pay));
+        mNavItems.add(new NavItem("Legend", "Icon descriptions", R.drawable.pay));
+        mNavItems.add(new NavItem("Level", "Points that mean nothing...and everything!", R.drawable.pay));
+        mNavItems.add(new NavItem("Settings", "Change profile settings/Logout", R.drawable.pay));
 
         // DrawerLayout
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
@@ -219,6 +226,55 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 selectItemFromDrawer(position);
             }
         });
+
+        mDrawerToggle = new ActionBarDrawerToggle(this, mDrawerLayout, R.string.drawer_open, R.string.drawer_close) {
+            @Override
+            public void onDrawerOpened(View drawerView) {
+                super.onDrawerOpened(drawerView);
+
+                invalidateOptionsMenu();
+            }
+
+            @Override
+            public void onDrawerClosed(View drawerView) {
+                super.onDrawerClosed(drawerView);
+                Log.d(TAG, "onDrawerClosed: " + getTitle());
+
+                invalidateOptionsMenu();
+            }
+        };
+
+        mDrawerLayout.setDrawerListener(mDrawerToggle);
+
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        // Pass the event to ActionBarDrawerToggle
+        // If it returns true, then it has handled
+        // the nav drawer indicator touch event
+        if (mDrawerToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
+
+        // Handle your other action bar items...
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
+//    public boolean onPrepareOptionsMenu(Menu menu) {
+//        // If the nav drawer is open, hide action items related to the content view
+//        boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
+////        menu.findItem(R.id.action_search).setVisible(!drawerOpen);
+//        return super.onPrepareOptionsMenu(menu);
+//    }
+
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        mDrawerToggle.syncState();
     }
 
 
@@ -279,7 +335,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         // Add a marker in Seattle and move the camera
         LatLng myPlace = new LatLng(47.608013, -122.335167);  // this is Seattle
         mMap.addMarker(new MarkerOptions().position(myPlace).title("Seattle"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myPlace, 15));
+        mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(myPlace, 17));
 
         consumer = new Consumer("data.seattle.gov", "PPbVrBWPSMKNRZODjPZHKhI8x");
 
