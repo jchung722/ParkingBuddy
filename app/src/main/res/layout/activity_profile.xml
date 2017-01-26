@@ -34,7 +34,7 @@
 
         <EditText
             android:layout_margin="15dp"
-            android:hint="Car"
+            android:hint="Car Information"
             android:id="@+id/editCar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />

@@ -1,8 +1,11 @@
 <resources>
-    <string name="app_name">ParKing</string>
-    <string name="title_activity_maps">Map</string>
+    <string name="app_name">Parking Buddy</string>
+    <string name="title_activity_maps">Parking Buddy</string>
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
     <string name="selected_place">Last Selected Place:</string>
     <string name="place_details">
+
     <![CDATA[
         <b>%1$s</b>
         <br/>
