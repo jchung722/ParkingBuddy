@@ -1,8 +1,7 @@
 package com.dev.ada.parkingbuddy;
 
-import android.app.Fragment;
-import android.app.FragmentManager;
 import android.content.Context;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Address;
 import android.location.Geocoder;
@@ -11,6 +10,7 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.Fragment;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
@@ -42,11 +42,14 @@ import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.database.ChildEventListener;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.socrata.android.client.Callback;
 import com.socrata.android.client.Consumer;
 import com.socrata.android.client.Response;
@@ -57,13 +60,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
-;
+import static com.dev.ada.parkingbuddy.R.id.carDesc;
+import static com.dev.ada.parkingbuddy.R.id.map;
+import static com.dev.ada.parkingbuddy.R.id.userName;
 
-//import com.dev.ada.parkingbuddy.model.Category;
-
-
-
-//import java.util.function.Consumer;
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, GoogleMap.OnMarkerClickListener, LocationListener {
 
@@ -81,6 +81,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
 
     public static final String TAG = MapsActivity.class.getSimpleName();
 
+    private FirebaseAuth firebaseAuth;
+    private DatabaseReference mDatabase;
     private FirebaseDatabase mFirebaseDatabase;
     private DatabaseReference mDatabaseReference;
 
@@ -90,6 +92,8 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     RelativeLayout mDrawerPane;
     private ActionBarDrawerToggle mDrawerToggle;
     private DrawerLayout mDrawerLayout;
+    private TextView textViewUserName;
+    private TextView textViewCarDesc;
 
     ArrayList<NavItem> mNavItems = new ArrayList<NavItem>();
 
@@ -112,18 +116,31 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             if (mLastLocation != null) {
                 LatLng currentLocation = new LatLng(mLastLocation.getLatitude(), mLastLocation
                         .getLongitude());
-                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 20));
+                mMap.animateCamera(CameraUpdateFactory.newLatLngZoom(currentLocation, 17));
             }
         }
     }
 
     private void selectItemFromDrawer(int position) {
-        Fragment fragment = new PreferencesFragment();
+        Fragment fragment = null;
 
-        FragmentManager fragmentManager = getFragmentManager();
-        fragmentManager.beginTransaction()
-                .replace(R.id.map, fragment)
-                .commit();
+        switch(position) {
+            case 0:
+                startActivity(new Intent(this, LegendActivity.class));
+                break;
+            case 1:
+                Intent intent = new Intent(this, LevelActivity.class);
+                intent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                startActivity(intent);
+                break;
+            case 2:
+                startActivity(new Intent(this, HelpActivity.class));
+                break;
+            case 3:
+                startActivity(new Intent(this, ProfileActivity.class));
+                break;
+        }
+
 
         mDrawerList.setItemChecked(position, true);
         setTitle(mNavItems.get(position).mTitle);
@@ -141,12 +158,46 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         setContentView(R.layout.activity_maps);
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
-                .findFragmentById(R.id.map);
+                .findFragmentById(map);
         mapFragment.getMapAsync(this);
+
 
         //FIREBASE STUFF
         mFirebaseDatabase = FirebaseDatabase.getInstance();
         mDatabaseReference = mFirebaseDatabase.getReference(MAP_PATH);
+        firebaseAuth = FirebaseAuth.getInstance();
+
+        if(firebaseAuth.getCurrentUser() == null) {
+            finish();
+            startActivity(new Intent(this, LoginActivity.class));
+        }
+
+
+
+        textViewUserName = (TextView) findViewById(userName);
+        textViewCarDesc = (TextView) findViewById(carDesc);
+
+        mDatabase = FirebaseDatabase.getInstance().getReference();
+
+        mDatabase.addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+
+                FirebaseUser user = firebaseAuth.getCurrentUser();
+
+                String nameOfCurrentUser = (String) dataSnapshot.child(user.getUid()).child("name").getValue();
+                String carOfCurrentUser = (String) dataSnapshot.child(user.getUid()).child("address").getValue();
+
+                textViewUserName.setText(nameOfCurrentUser);
+                textViewCarDesc.setText(carOfCurrentUser);
+
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
 
         mDatabaseReference.addChildEventListener(new ChildEventListener() {
             @Override
@@ -205,15 +256,15 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                     .build();
         }
 
-        mNavItems.add(new NavItem("About", "How to Parking Buddy", R.drawable.pay));
-        mNavItems.add(new NavItem("Legend", "Icon descriptions", R.drawable.pay));
-        mNavItems.add(new NavItem("Level", "Points that mean nothing...and everything!", R.drawable.pay));
-        mNavItems.add(new NavItem("Settings", "Change profile settings/Logout", R.drawable.pay));
+        mNavItems.add(new NavItem("Legend", "Icon descriptions", R.drawable.legend));
+        mNavItems.add(new NavItem("Level", "Accumulated points", R.drawable.crown));
+        mNavItems.add(new NavItem("Help", "How to be a Parking Buddy", R.drawable.help));
+        mNavItems.add(new NavItem("Settings", "Change profile settings/Logout", R.drawable.settings));
 
         // DrawerLayout
         mDrawerLayout = (DrawerLayout) findViewById(R.id.drawerLayout);
 
-        // Populate the Navigtion Drawer with options
+        // Populate the Navigation Drawer with options
         mDrawerPane = (RelativeLayout) findViewById(R.id.drawerPane);
         mDrawerList = (ListView) findViewById(R.id.navList);
         DrawerListAdapter adapter = new DrawerListAdapter(this, mNavItems);
@@ -263,20 +314,11 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         return super.onOptionsItemSelected(item);
     }
 
-
-//    public boolean onPrepareOptionsMenu(Menu menu) {
-//        // If the nav drawer is open, hide action items related to the content view
-//        boolean drawerOpen = mDrawerLayout.isDrawerOpen(mDrawerList);
-////        menu.findItem(R.id.action_search).setVisible(!drawerOpen);
-//        return super.onPrepareOptionsMenu(menu);
-//    }
-
     @Override
     protected void onPostCreate(Bundle savedInstanceState) {
         super.onPostCreate(savedInstanceState);
         mDrawerToggle.syncState();
     }
-
 
     /**
      * Manipulates the map once available.
@@ -300,10 +342,33 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 String firebaseId = marker.getTitle();
                 if (mDatabaseReference.child(firebaseId) != null){
                     mDatabaseReference.child(firebaseId).removeValue();
-                    return true;
-                } else {
                     return false;
                 }
+                return false;
+            }
+        });
+
+        mMap.setInfoWindowAdapter(new GoogleMap.InfoWindowAdapter() {
+
+            @Override
+            public View getInfoWindow(Marker arg0) {
+                return null;
+            }
+
+            @Override
+            public View getInfoContents(Marker marker) {
+
+                View v = getLayoutInflater().inflate(R.layout.markerinfo, null);
+
+                TextView snippet= (TextView) v.findViewById(R.id.snippet);
+                TextView title= (TextView) v.findViewById(R.id.mtitle);
+
+                title.setText(marker.getTitle().toString());
+                if(marker.getSnippet() != null) {
+                    snippet.setText(marker.getSnippet().toString());
+                }
+
+                return v;
             }
         });
 
@@ -340,23 +405,26 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         consumer = new Consumer("data.seattle.gov", "PPbVrBWPSMKNRZODjPZHKhI8x");
 
         Query query = new Query("wbng-6x9n", Block.class);
-        query.setLimit(5000);
+        query.setLimit(3000);
 
         consumer.getObjects(query, new Callback<List<Block>>() {
             @Override
             public void onResults(Response<List<Block>> response) {
                 List<Block> blocks = response.getEntity();
                 for(int i = 0; i < blocks.size(); i++) {
-                    if (blocks.get(i).getShape().getLatitude() != null && blocks.get(i).getShape().getLongitude() != null) {
+                    if (blocks.get(i).getShape().getLatitude() != null && blocks.get(i).getShape().getLongitude() != null ) {
                         if (blocks.get(i).getParkingCategory().equals("No Parking Allowed")) {
                             LatLng position = new LatLng(blocks.get(i).getShape().getLatitude(), blocks.get(i).getShape().getLongitude());
                             mMap.addMarker(new MarkerOptions().icon(BitmapDescriptorFactory.fromResource(R.drawable.no_parking)).position(position).title(blocks.get(i).getParkingCategory()));
                         } else if (blocks.get(i).getParkingCategory().equals("Unrestricted Parking")) {
                             LatLng position = new LatLng(blocks.get(i).getShape().getLatitude(), blocks.get(i).getShape().getLongitude());
                             mMap.addMarker(new MarkerOptions().icon(BitmapDescriptorFactory.fromResource(R.drawable.unrestricted)).position(position).title(blocks.get(i).getParkingCategory()));
-                        } else if (blocks.get(i).getParkingCategory().equals("Time Limited Parking")) {
+                        } else if (blocks.get(i).getParkingCategory().equals("Time Limited Parking") && blocks.get(i).getParkingTimeLimit() != null) {
                             LatLng position = new LatLng(blocks.get(i).getShape().getLatitude(), blocks.get(i).getShape().getLongitude());
                             mMap.addMarker(new MarkerOptions().icon(BitmapDescriptorFactory.fromResource(R.drawable.time)).position(position).title(blocks.get(i).getParkingCategory()).snippet("Time Limit: " + blocks.get(i).getParkingTimeLimit()/60 + "Hours"));
+                        } else if (blocks.get(i).getParkingCategory().equals("Restricted Parking Zone")) {
+                            LatLng position = new LatLng(blocks.get(i).getShape().getLatitude(), blocks.get(i).getShape().getLongitude());
+                            mMap.addMarker(new MarkerOptions().icon(BitmapDescriptorFactory.fromResource(R.drawable.restricted)).position(position).title(blocks.get(i).getParkingCategory()));
                         }
                     }
                 }
@@ -364,7 +432,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         });
 
         Query query2 = new Query("aa4z-2beb", PayStation.class);
-        query2.setLimit(3000);
+        query2.setLimit(2000);
 
         consumer.getObjects(query2, new Callback<List<PayStation>>() {
             @Override

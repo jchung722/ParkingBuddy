@@ -6,9 +6,9 @@
                 "to": {
                     "startLine": 2,
                     "startColumn": 4,
-                    "startOffset": 55,
+                    "startOffset": 105,
                     "endColumn": 114,
-                    "endOffset": 165
+                    "endOffset": 215
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -25,9 +25,9 @@
                 "to": {
                     "startLine": 3,
                     "startColumn": 4,
-                    "startOffset": 170,
+                    "startOffset": 220,
                     "endColumn": 107,
-                    "endOffset": 273
+                    "endOffset": 323
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -44,9 +44,9 @@
                 "to": {
                     "startLine": 4,
                     "startColumn": 4,
-                    "startOffset": 278,
+                    "startOffset": 328,
                     "endColumn": 122,
-                    "endOffset": 396
+                    "endOffset": 446
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -63,9 +63,9 @@
                 "to": {
                     "startLine": 5,
                     "startColumn": 4,
-                    "startOffset": 401,
+                    "startOffset": 451,
                     "endColumn": 101,
-                    "endOffset": 498
+                    "endOffset": 548
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -82,9 +82,9 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 503,
+                    "startOffset": 553,
                     "endColumn": 111,
-                    "endOffset": 610
+                    "endOffset": 660
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -101,9 +101,9 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 615,
+                    "startOffset": 665,
                     "endColumn": 85,
-                    "endOffset": 696
+                    "endOffset": 746
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -120,9 +120,9 @@
                 "to": {
                     "startLine": 8,
                     "startColumn": 4,
-                    "startOffset": 701,
+                    "startOffset": 751,
                     "endColumn": 104,
-                    "endOffset": 801
+                    "endOffset": 851
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -139,9 +139,9 @@
                 "to": {
                     "startLine": 9,
                     "startColumn": 4,
-                    "startOffset": 806,
+                    "startOffset": 856,
                     "endColumn": 119,
-                    "endOffset": 921
+                    "endOffset": 971
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -158,9 +158,9 @@
                 "to": {
                     "startLine": 10,
                     "startColumn": 4,
-                    "startOffset": 926,
+                    "startOffset": 976,
                     "endColumn": 78,
-                    "endOffset": 1000
+                    "endOffset": 1050
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -177,9 +177,9 @@
                 "to": {
                     "startLine": 11,
                     "startColumn": 4,
-                    "startOffset": 1005,
+                    "startOffset": 1055,
                     "endColumn": 77,
-                    "endOffset": 1078
+                    "endOffset": 1128
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -196,9 +196,9 @@
                 "to": {
                     "startLine": 12,
                     "startColumn": 4,
-                    "startOffset": 1083,
+                    "startOffset": 1133,
                     "endColumn": 79,
-                    "endOffset": 1158
+                    "endOffset": 1208
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -215,9 +215,9 @@
                 "to": {
                     "startLine": 13,
                     "startColumn": 4,
-                    "startOffset": 1163,
+                    "startOffset": 1213,
                     "endColumn": 105,
-                    "endOffset": 1264
+                    "endOffset": 1314
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -234,9 +234,9 @@
                 "to": {
                     "startLine": 14,
                     "startColumn": 4,
-                    "startOffset": 1269,
+                    "startOffset": 1319,
                     "endColumn": 107,
-                    "endOffset": 1372
+                    "endOffset": 1422
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -253,9 +253,9 @@
                 "to": {
                     "startLine": 15,
                     "startColumn": 4,
-                    "startOffset": 1377,
+                    "startOffset": 1427,
                     "endColumn": 97,
-                    "endOffset": 1470
+                    "endOffset": 1520
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -272,9 +272,9 @@
                 "to": {
                     "startLine": 16,
                     "startColumn": 4,
-                    "startOffset": 1475,
+                    "startOffset": 1525,
                     "endColumn": 108,
-                    "endOffset": 1579
+                    "endOffset": 1629
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -291,9 +291,9 @@
                 "to": {
                     "startLine": 17,
                     "startColumn": 4,
-                    "startOffset": 1584,
+                    "startOffset": 1634,
                     "endColumn": 105,
-                    "endOffset": 1685
+                    "endOffset": 1735
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -310,9 +310,9 @@
                 "to": {
                     "startLine": 18,
                     "startColumn": 4,
-                    "startOffset": 1690,
+                    "startOffset": 1740,
                     "endColumn": 107,
-                    "endOffset": 1793
+                    "endOffset": 1843
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -329,9 +329,9 @@
                 "to": {
                     "startLine": 19,
                     "startColumn": 4,
-                    "startOffset": 1798,
+                    "startOffset": 1848,
                     "endColumn": 135,
-                    "endOffset": 1929
+                    "endOffset": 1979
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -348,9 +348,9 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 1934,
+                    "startOffset": 1984,
                     "endColumn": 99,
-                    "endOffset": 2029
+                    "endOffset": 2079
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -367,18 +367,18 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2034,
-                    "endColumn": 108,
-                    "endOffset": 2138
+                    "startOffset": 2084,
+                    "endColumn": 151,
+                    "endOffset": 2231
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 1055,
-                        "endColumn": 108,
-                        "endOffset": 1159
+                        "startOffset": 670,
+                        "endColumn": 151,
+                        "endOffset": 817
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2143,
-                    "endColumn": 165,
-                    "endOffset": 2304
+                    "startOffset": 2236,
+                    "endColumn": 150,
+                    "endOffset": 2382
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 889,
-                        "endColumn": 165,
-                        "endOffset": 1050
+                        "startOffset": 2568,
+                        "endColumn": 150,
+                        "endOffset": 2714
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2309,
-                    "endColumn": 126,
-                    "endOffset": 2431
+                    "startOffset": 2387,
+                    "endColumn": 112,
+                    "endOffset": 2495
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 762,
-                        "endColumn": 126,
-                        "endOffset": 884
+                        "startOffset": 2290,
+                        "endColumn": 112,
+                        "endOffset": 2398
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2436,
-                    "endColumn": 111,
-                    "endOffset": 2543
+                    "startOffset": 2500,
+                    "endColumn": 108,
+                    "endOffset": 2604
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 650,
-                        "endColumn": 111,
-                        "endOffset": 757
+                        "startOffset": 2053,
+                        "endColumn": 108,
+                        "endOffset": 2157
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2548,
-                    "endColumn": 174,
-                    "endOffset": 2718
+                    "startOffset": 2609,
+                    "endColumn": 165,
+                    "endOffset": 2770
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 299,
-                        "endColumn": 174,
-                        "endOffset": 469
+                        "startOffset": 1887,
+                        "endColumn": 165,
+                        "endOffset": 2048
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2723,
-                    "endColumn": 175,
-                    "endOffset": 2894
+                    "startOffset": 2775,
+                    "endColumn": 126,
+                    "endOffset": 2897
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 474,
-                        "endColumn": 175,
-                        "endOffset": 645
+                        "startOffset": 1760,
+                        "endColumn": 126,
+                        "endOffset": 1882
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 2899,
-                    "endColumn": 128,
-                    "endOffset": 3023
+                    "startOffset": 2902,
+                    "endColumn": 173,
+                    "endOffset": 3071
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 3,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 170,
-                        "endColumn": 128,
-                        "endOffset": 294
+                        "startOffset": 990,
+                        "endColumn": 177,
+                        "endOffset": 1163
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 3028,
-                    "endColumn": 143,
-                    "endOffset": 3167
+                    "startOffset": 3076,
+                    "endColumn": 111,
+                    "endOffset": 3183
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1457,
-                        "endColumn": 143,
-                        "endOffset": 1596
+                        "startOffset": 1648,
+                        "endColumn": 111,
+                        "endOffset": 1755
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3172,
-                    "endColumn": 235,
-                    "endOffset": 3403
+                    "startOffset": 3188,
+                    "endColumn": 174,
+                    "endOffset": 3358
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 14,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1725,
-                        "endColumn": 235,
-                        "endOffset": 1956
+                        "startOffset": 1297,
+                        "endColumn": 174,
+                        "endOffset": 1467
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3408,
-                    "endColumn": 123,
-                    "endOffset": 3527
+                    "startOffset": 3363,
+                    "endColumn": 175,
+                    "endOffset": 3534
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 13,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1601,
-                        "endColumn": 123,
-                        "endOffset": 1720
+                        "startOffset": 1472,
+                        "endColumn": 175,
+                        "endOffset": 1643
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 3532,
-                    "endColumn": 108,
-                    "endOffset": 3636
+                    "startOffset": 3539,
+                    "endColumn": 128,
+                    "endOffset": 3663
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 1961,
-                        "endColumn": 108,
-                        "endOffset": 2065
+                        "startOffset": 1168,
+                        "endColumn": 128,
+                        "endOffset": 1292
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3641,
-                    "endColumn": 164,
-                    "endOffset": 3801
+                    "startOffset": 3668,
+                    "endColumn": 157,
+                    "endOffset": 3821
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 1292,
-                        "endColumn": 164,
-                        "endOffset": 1452
+                        "startOffset": 3130,
+                        "endColumn": 157,
+                        "endOffset": 3283
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 3806,
-                    "endColumn": 127,
-                    "endOffset": 3929
+                    "startOffset": 3826,
+                    "endColumn": 132,
+                    "endOffset": 3954
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 1164,
-                        "endColumn": 127,
-                        "endOffset": 1287
+                        "startOffset": 2997,
+                        "endColumn": 132,
+                        "endOffset": 3125
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 3934,
-                    "endColumn": 89,
-                    "endOffset": 4019
+                    "startOffset": 3959,
+                    "endColumn": 167,
+                    "endOffset": 4122
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 2070,
-                        "endColumn": 89,
-                        "endOffset": 2155
+                        "startOffset": 822,
+                        "endColumn": 167,
+                        "endOffset": 985
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 4024,
-                    "endColumn": 111,
-                    "endOffset": 4131
+                    "startOffset": 4127,
+                    "endColumn": 159,
+                    "endOffset": 4282
                 },
                 "from": {
-                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/values-ru/strings.xml",
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 2160,
-                        "endColumn": 111,
-                        "endOffset": 2267
+                        "startOffset": 2837,
+                        "endColumn": 159,
+                        "endOffset": 2992
                     }
                 }
             },
@@ -652,9 +652,256 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4136,
+                    "startOffset": 4287,
+                    "endColumn": 117,
+                    "endOffset": 4400
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 2719,
+                        "endColumn": 117,
+                        "endOffset": 2832
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 4405,
+                    "endColumn": 186,
+                    "endOffset": 4587
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 304,
+                        "endColumn": 186,
+                        "endOffset": 486
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 4592,
+                    "endColumn": 178,
+                    "endOffset": 4766
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 491,
+                        "endColumn": 178,
+                        "endOffset": 665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 4771,
+                    "endColumn": 133,
+                    "endOffset": 4900
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 133,
+                        "endOffset": 299
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 4905,
+                    "endColumn": 143,
+                    "endOffset": 5044
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 3288,
+                        "endColumn": 143,
+                        "endOffset": 3427
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 5049,
+                    "endColumn": 235,
+                    "endOffset": 5280
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 3556,
+                        "endColumn": 235,
+                        "endOffset": 3787
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 5285,
+                    "endColumn": 123,
+                    "endOffset": 5404
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 3432,
+                        "endColumn": 123,
+                        "endOffset": 3551
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 5409,
+                    "endColumn": 108,
+                    "endOffset": 5513
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 3792,
+                        "endColumn": 108,
+                        "endOffset": 3896
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 5518,
+                    "endColumn": 164,
+                    "endOffset": 5678
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 2403,
+                        "endColumn": 164,
+                        "endOffset": 2563
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 5683,
+                    "endColumn": 127,
+                    "endOffset": 5806
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 2162,
+                        "endColumn": 127,
+                        "endOffset": 2285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 5811,
+                    "endColumn": 97,
+                    "endOffset": 5904
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 4,
+                        "startOffset": 4103,
+                        "endColumn": 97,
+                        "endOffset": 4196
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 5909,
+                    "endColumn": 89,
+                    "endOffset": 5994
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 3901,
+                        "endColumn": 89,
+                        "endOffset": 3986
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 5999,
+                    "endColumn": 111,
+                    "endOffset": 6106
+                },
+                "from": {
+                    "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/values-ru/common_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 3991,
+                        "endColumn": 111,
+                        "endOffset": 4098
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 6111,
                     "endColumn": 80,
-                    "endOffset": 4212
+                    "endOffset": 6187
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",
@@ -669,11 +916,11 @@
             },
             {
                 "to": {
-                    "startLine": 37,
+                    "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 4217,
+                    "startOffset": 6192,
                     "endColumn": 100,
-                    "endOffset": 4313
+                    "endOffset": 6288
                 },
                 "from": {
                     "file": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/values-ru/values-ru.xml",

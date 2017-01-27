@@ -13,6 +13,7 @@
  buildscript {
      repositories {
          maven { url 'http://repo1.maven.org/maven2' }
+         jcenter()
      }
      dependencies {
          classpath 'com.android.tools.build:gradle:2.2.3'
@@ -24,7 +25,7 @@
  dependencies {
      compile files('libs/android-async-http-1.4.2-66-g4b6eb97.jar')
      compile 'com.android.support:appcompat-v7:25.1.0'
-     compile 'com.google.android.gms:play-services:3.1.36'
+     compile 'com.google.android.gms:play-services-maps:6.5.87'
  }
 
  android {

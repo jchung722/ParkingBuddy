@@ -2,7 +2,9 @@ package com.dev.ada.parkingbuddy;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.app.NavUtils;
 import android.support.v7.app.AppCompatActivity;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -27,6 +29,11 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+
+        setTitle("Settings");
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
 
@@ -69,6 +76,17 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
     }
 
     @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case android.R.id.home:
+                NavUtils.navigateUpFromSameTask(this);
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    @Override
     public void onClick(View view) {
         if(view == buttonLogout) {
             firebaseAuth.signOut();
@@ -78,6 +96,7 @@ public class ProfileActivity extends AppCompatActivity implements View.OnClickLi
 
         if(view == buttonSave){
             saveUserInformation();
+            startActivity(new Intent(this, MapsActivity.class));
         }
     }
 }

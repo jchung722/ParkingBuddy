@@ -5,7 +5,7 @@
     },
     {
         "merged": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_icon_dark.xml",
-        "source": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/drawable/common_signin_btn_icon_dark.xml"
+        "source": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/drawable/common_signin_btn_icon_dark.xml"
     },
     {
         "merged": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_ab_back_material.xml",
@@ -69,7 +69,7 @@
     },
     {
         "merged": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_text_light.xml",
-        "source": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/drawable/common_signin_btn_text_light.xml"
+        "source": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/drawable/common_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_clear_material.xml",
@@ -77,11 +77,11 @@
     },
     {
         "merged": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_icon_light.xml",
-        "source": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/drawable/common_signin_btn_icon_light.xml"
+        "source": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/drawable/common_signin_btn_icon_light.xml"
     },
     {
         "merged": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/res/merged/androidTest/debug/drawable/common_signin_btn_text_dark.xml",
-        "source": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services/3.1.36/res/drawable/common_signin_btn_text_dark.xml"
+        "source": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/6.5.87/res/drawable/common_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/Jessica/AndroidStudioProjects/ParkingBuddy/soda-android-sdk/build/intermediates/res/merged/androidTest/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",

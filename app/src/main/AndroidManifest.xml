@@ -50,7 +50,26 @@
             android:name=".MapsActivity"
             android:label="Map" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".ProfileActivity" />
+        <activity android:name=".ProfileActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dev.ada.parkingbuddy.MapsActivity" />
+        </activity>
+        <activity android:name=".LegendActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dev.ada.parkingbuddy.MapsActivity" />
+        </activity>
+        <activity android:name=".LevelActivity">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value="com.dev.ada.parkingbuddy.MapsActivity" />
+        </activity>
+        <activity android:name=".HelpActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.dev.ada.parkingbuddy.MapsActivity" />
+        </activity>
     </application>
 
 </manifest>
