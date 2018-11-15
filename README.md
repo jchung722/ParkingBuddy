@@ -1,4 +1,4 @@
-#Parking Buddy  
+# Parking Buddy  
 __Problem Statement__  
 There is not yet an app that gives a comprehensive mapping of street parking in major cities. This app would provide an overlay of available streetparking on google maps, distinguishing between free parking, metered parking, and timed parking.  
   
@@ -11,8 +11,6 @@ Drivers who live/work in the city.
   * Millenials
   * Mobile Users
   * Frequent users of navigation apps such as google maps or waze
-
-__Trello Board__   
 
 __Technology Selections__ 
   * Java
